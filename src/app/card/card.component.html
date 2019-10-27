@@ -11,7 +11,6 @@
 <div class="card" *ngIf="users">มีข้อมูลแล้ว</div>
 <div class="card"> {{ users | json }} </div>
 -->
-<div><h1> รายการ user </h1></div>
 <div class="card" *ngFor="let u of users">
   <div class="container">
     <h4><b>{{u._source.user}}</b></h4>

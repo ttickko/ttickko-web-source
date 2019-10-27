@@ -8,19 +8,29 @@ export class UserService {
 
   friends = [
     {
-      name: 'Franky Lee Jones',
-      pic: 'frank.png',
-      position: 'CEO',
+      name: 'Dark Chocolate',
+      pic: 'Dark_Chocolate.jpg',
+      position: '55 THB',
     },
     {
-      name: 'Alice in Wonderland',
-      pic: 'alisa.jpg',
-      position: 'Secretary',
+      name: 'Fresh Milk Tea',
+      pic: 'Fresh_Milk_Tea.jpg',
+      position: '45 THB',
     },
-    {
-      name: 'Pat Tracy Johnson',
-      pic: 'pat.jpg',
-      position: 'IT Support',
+     {
+      name: 'Matcha Latte',
+      pic: 'Matcha_Latte.jpg',
+      position: '55 THB',
+    },
+       {
+      name: 'Strawberry Cheesecake',
+      pic: 'Strawberry_Cheesecake.jpg',
+      position: '70 THB',
+    },
+      {
+      name: 'Strawberry',
+      pic: 'Strawberry.jpg',
+      position: '65 THB',
     }
   ];
   users: any
