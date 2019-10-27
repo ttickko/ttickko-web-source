@@ -1,19 +1,25 @@
- <form action="" method="POST" style="border:1px solid #ccc">
-  <div class="container">
-    <h1>ลงทะเบียน</h1>
-  <p>กรุณากรอกข้อมูลต่อไปนี้ให้ครบถ้วน</p>
-    <hr>
-    <label for="user"><b>User</b></label>
-    <input type="text" placeholder="User" #user name="user" required>
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
 
-    <label for="password"><b>Password</b></label>
-    <input type="password" placeholder="Password" #password name="password" required>
-
-    <p>ยอมรับข้อกำหนด<a href="#" style="color:dodgerblue">ข้อกำหนด</a>ของเว็บไซต์</p>
-
-    <div class="clearfix">
-      <button type="button" class="cancelbtn">ยกเลิก</button>
-      <button type="button" class="signupbtn" (click)="signup(user.value, password.value)">ลงทะเบียน</button>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6 col-md-4 col-md-offset-4">
+            <h1 class="text-center register-title">Register</h1>
+            <div class="account-wall">
+                <img class="profile-img" src="/assets/Cafe_Amazon_Logo.jpg"
+                    alt="">
+                <form class="form-register">
+                <input type="text" class="form-control" placeholder="Username" required autofocus>
+                <input type="text" class="form-control" placeholder="Email" required autofocus>
+                <input type="password" class="form-control" placeholder="Password Confirm" required>
+                <input type="password" class="form-control" placeholder="Password" required>
+                <button class="btn btn-lg btn-primary btn-block" type="submit">
+                    Register</button>
+                
+                </form>
+            </div>
+        </div>
     </div>
-  </div>
-</form>
+</div>
